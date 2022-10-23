@@ -1,0 +1,66 @@
+.LoginPage {
+    background: url('../../assets/images/login-background.png') no-repeat center center;
+    background-size: cover;
+}
+
+.LoginPage h2 {
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.LoginBox {
+    grid-area: 3 / 7 / span 4 / span 6;
+    text-align: center;
+}
+
+.LoginBox h2 {
+    text-transform: uppercase;
+    color:#043480;
+}
+
+.LoginPage input {
+    margin: 7px 0 30px 0;
+    padding: 12px 75px;
+    text-align: center;
+    border-radius: 7px;
+    border: 2px solid #DFDFDF;
+    color: #DFDFDF;
+    width: 25%;
+}
+
+.LoginPage input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    overflow: visible;
+}
+
+.LoginPage input:focus,
+.LoginPage input:focus::placeholder {
+    color: #043480;
+    border-color: #043480;
+    outline:none;
+    box-shadow: none;
+}
+
+button {
+    background-color: #043480;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 65px;
+    box-shadow: 0px 0px 3px #3a3a3a;
+    font-weight: 700;
+    margin: 25px 0 50px 0;
+}
+
+.ForgotPassword {
+    color: #000000;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1300px) {
+    .LoginBox {
+        grid-area: 3 / 7 / span 2 / span 5;
+    }
+}
