@@ -1,0 +1,35 @@
+.Main {
+    display: flex;
+    width: 100%;
+    padding: 10px 0 10px 30px;
+    box-sizing: border-box;
+}
+
+.Main img {
+    width: 20px;
+}
+
+.Main p {
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.Link {
+    text-decoration: none;
+    color: #A7A7A7;
+}
+
+.Main:hover {
+    background-color: #043480;
+}
+
+.Main p:hover {
+    color: #FFFFFF;
+}
+
+.Align {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    
+}
